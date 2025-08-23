@@ -1,6 +1,8 @@
-streamlit
-tensorflow
-tensorflow-hub
-numpy
-scikit-learn
+# Use the CPU-only version of TensorFlow for smaller size and better compatibility on Streamlit Cloud
+tensorflow-cpu==2.16.1
 
+# Other required libraries with pinned versions for stability
+streamlit==1.36.0
+tensorflow-hub==0.16.1
+numpy==1.26.4
+scikit-learn==1.5.0
